@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (button) {
     button.addEventListener('click', () => {
-      button.textContent = 'Thanks!';
       const a = document.createElement('a');
         a.href = 'The_Start.zip';
         a.download = 'The_Start.zip';
