@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (button) {
     button.addEventListener('click', () => {
       button.textContent = 'Thanks!';
-      button.download = The_Start.zip;
+      //button.download = The_Start.zip;
     });
   }
 });
