@@ -4,7 +4,12 @@ document.addEventListener('DOMContentLoaded', () => {
   if (button) {
     button.addEventListener('click', () => {
       button.textContent = 'Thanks!';
-      //button.download = The_Start.zip;
+      const a = document.createElement('a');
+        a.href = 'The_Start.zip';
+        a.download = 'The_Start.zip';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
     });
   }
 });
